@@ -1,34 +1,4 @@
-/* 
-Document   : layout
-Author     : Little Neko
-Description: layout styles
-
-*/
-
-/* Table of Content
-==================================================
-
-#BOOSTRAP CUSTOMIZATION
-#NEKO CSS FRAMEWORK
-#TYPOGRAPHY
-#GENERAL
-#PARALLAX STUFF
-#HEADER
-#MAIN MENU 
-#FOOTER 
-#SLIDERS
-#BLOG
-#NEWS
-#PAGES
-#PORTFOLIO
-#FORMS
-#MISCELANIOUS
-
-*/
-
-
-/* BOOSTRAP CUSTOMIZATION
-================================================== */
+/* BOOSTRAP CUSTOMIZATION */
 .navbar {margin-bottom:0;}
 .navbar-default {background:none; border:none;}
 .nav.nav-tabs {margin-bottom:22px;}
@@ -71,13 +41,7 @@ display:block;
 
 /*** END MEDIA QUERIES ***/
 
-/* END BOOSTRAP CUSTOMIZATION
-================================================== */
-
-
-
-/* NEKO CSS FRAMEWORK
-================================================== */
+/* END BOOSTRAP CUSTOMIZATION */
 
 .iconRounded{
 	border-radius: 50%;
@@ -166,11 +130,8 @@ display:block;
 @media(min-width:1200px){}
 
 /*** END MEDIA QUERIES ***/
-/* NEKO CSS FRAMEWORK
-================================================== */
 
-/* TYPOGRAPHY
-================================================== */
+/* TYPOGRAPHY */
 
 body {
 	font-size:16px;
@@ -392,10 +353,9 @@ hr {
 /*** END MEDIA QUERIES ***/
 #flexHome h1{}
 
-/* END TYPOGRAPHY
-================================================== */
-/* GENERAL
-================================================== */
+/* END TYPOGRAPHY */
+
+/* GENERAL */
 .slice {padding:33px 0;}
 
 /*** buttons ***/
@@ -473,11 +433,9 @@ hr {
 
 /*** END MEDIA QUERIES ***/
 
-/* END GENERAL
-================================================== */
+/* END GENERAL */
 
-/* PARALLAX STUFF
-================================================== */
+/* PARALLAX STUFF */
 #paralaxSlice1, #paralaxSlice2, #paralaxSlice3, #paralaxSlice4, #paralaxSlice5, #homeFullScreen {
 	width:100%;
 	background-repeat: repeat;
@@ -531,11 +489,9 @@ hr {
 /*** END MEDIA QUERIES ***/
 
 
-/* END PARALLAX STUFF
-================================================== */
+/* END PARALLAX STUFF */
 
-/* HEADER
-================================================== */
+/* HEADER */
 #mainHeader{background:#eee;}
 .navbar-brand{padding-top:30px;padding-left: 0;}
 
@@ -568,11 +524,9 @@ hr {
 
 /*** END MEDIA QUERIES ***/
 
-/* END HEADER
-================================================== */
+/* END HEADER */
 
-/* MAIN MENU
-================================================== */
+/* MAIN MENU */
 .navbar-nav > li > a {
     display: block;
     font-size: 1em;
@@ -589,7 +543,7 @@ hr {
 	-ms-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 }
-.navbar-nav > li > a i {font-size: 16px; text-align: center;padding: 20px 0 10px 0; color:#ccc;}
+.navbar-nav > li > a i {text-align: center;padding: 20px 0 10px 0; color:#ccc;}
 .navbar-nav > li > a:hover i, .navbar-nav > li.active > a i {color:#fff;}
 #mainHeader .pull-right{ float:none !important; }
 
@@ -619,10 +573,9 @@ hr {
 
 /*** END MEDIA QUERIES ***/
 
-/* END MAIN MENU
-================================================== */
-/* HOME
-================================================== */
+/* END MAIN MENU */
+
+/* HOME */
 body#fullScreen {padding-top: 0}
 body#fullScreen #mainHeader{display:none;}
 #home{padding-top:44px;}
@@ -669,20 +622,17 @@ body#fullScreen #mainHeader{display:none;}
 
 /*** END MEDIA QUERIES ***/
 
-/* END HOME
-================================================== */
-/* NEWS
-================================================== */
+/* END HOME */
+
+/* NEWS */
 .newsText{padding:20px 20px 25px 20px; margin-bottom: 22px;}
 .newsText h3{margin-bottom: 8px;}
 .date{font-size:12px; line-height:12px;font-style: italic;}
 .newsText p{font-size:12px;} 
 
-/* END NEWS
-================================================== */
+/* END NEWS */
 
-/* FOOTER 
-================================================== */
+/* FOOTER */
 
 footer{padding:44px 0;}
 #footerLogo {margin-bottom: 22px;}
@@ -691,12 +641,10 @@ footer{padding:44px 0;}
 
 
 @media(min-width:768px){.footerWidget{float:right;}}
-/* END FOOTER 
-================================================== */
+/* END FOOTER */
 
 
-/* SLIDERS
-================================================== */
+/* SLIDERS */
 /*** flex ***/
 #flexHome {
 	background: transparent;
@@ -782,8 +730,7 @@ margin-bottom:-44px;
 
 /*** END MEDIA QUERIES ***/
 
-/* PORTFOLIO
-================================================== */
+/* PORTFOLIO */
 nav#filter {margin-bottom:22px;}
 nav#filter li{ display:inline-block;list-style:none;}
 .isotopeItem {margin-bottom: 22px;}
@@ -816,11 +763,9 @@ header#project{padding:22px 0;}
 
     width:100%;
 }
-/* END PORTFOLIO
-================================================== */
+/* END PORTFOLIO */
 
-/* FORM
-================================================== */
+/* FORM */
 #verifyImg{margin-bottom: 11px;}
 /*** MEDIA QUERIES ***/
 
@@ -834,14 +779,12 @@ header#project{padding:22px 0;}
 
 /*** END MEDIA QUERIES ***/
 
-/* END FORM
-================================================== */
+/* END FORM */
 
 
 
 
-/* MISCELANIOUS
-================================================== */
+/* MISCELANIOUS */
 
 /* Preloader one page */
 #preloader {
@@ -901,6 +844,7 @@ header#project{padding:22px 0;}
 	transition: all 0.2s ease-out;
 }
 .iconLinks a span{
+    display:none;
 	position: relative;
 	top: -30px;
 	font-size: 16px;
@@ -1001,7 +945,6 @@ float: left;
 width: 60px;
 }
 
-
 /*** MEDIA QUERIES ***/
 
 @media(max-width:767px){}
@@ -1014,19 +957,10 @@ width: 60px;
 
 /*** END MEDIA QUERIES ***/
 
-/* END MISCELANIOUS
-================================================== */
+/* END MISCELANIOUS */
 
-
-
-/* MEDIA QUERIES
-================================================== */
-
-
+/* MEDIA QUERIES */
 @media(max-width:767px){
-
-
-
 
 }
 
@@ -1055,16 +989,22 @@ width: 60px;
 }
 @media(min-width:1200px){
 
-
-
 }
-
-/* END MEDIA QUERIES
-================================================== */
+/* END MEDIA QUERIES */
 
 .styleSwitcher #showHideSwitcher {
 	background: transparent;
 	border: 1px solid;
 	border-color: grey;
 	border-radius: 0px 8px 8px 0px;
+}
+
+.iconLinks a{
+    margin:0px 20px;
+}
+.iconLinks a span{
+   display:none;
+}
+.iconLinks a i{
+    color : white;
 }
