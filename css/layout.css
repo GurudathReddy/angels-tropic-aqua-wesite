@@ -112,7 +112,7 @@ display:block;
 		height: 80px;
 		padding-top: 18px;
 	}
-	.isotopeItem .iconLinks a span{font-size:10px;}
+
 }
 
 @media(min-width:992px){
@@ -124,7 +124,7 @@ display:block;
 		height: 125px;
 		padding-top: 28px;
 	}
-	.isotopeItem .iconLinks a span{font-size:12px;}
+
 }
 
 @media(min-width:1200px){}
@@ -139,7 +139,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
-	margin: 0;
+	margin: 0 !important;
 	padding: 0;
 	padding-top: 88px;
 }
@@ -843,18 +843,7 @@ header#project{padding:22px 0;}
 	-ms-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 }
-.iconLinks a span{
-    display:none;
-	position: relative;
-	top: -30px;
-	font-size: 16px;
-	text-align: center;
-	width: 100%;
-	display: block;
-	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-weight: normal;
 
-}
 .mediaHover {
 	text-align:center;
 	overflow:hidden;
@@ -999,12 +988,11 @@ width: 60px;
 	border-radius: 0px 8px 8px 0px;
 }
 
-.iconLinks a{
-    margin:0px 20px;
-}
-.iconLinks a span{
-   display:none;
-}
+
 .iconLinks a i{
-    color : white;
+    color : rgba(0,0,0,0.25);
+}
+
+.iconLinks a .icon-inner{
+    color:white;
 }
