@@ -129,8 +129,9 @@ $(window).load(function () {
 
     "use strict";
 
-    $('#status').fadeOut(); // will first fade out the loading animation
-    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+    //$('#status').fadeOut();
+    $('#status').delay(550).fadeOut('slow');// will first fade out the loading animation
+    $('#preloader').delay(800).fadeOut('slow'); // will fade out the white DIV that covers the website.
     $('body').delay(350).css({'overflow': 'visible'});
 
     /* Isotope Filtering */

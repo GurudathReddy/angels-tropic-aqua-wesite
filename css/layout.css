@@ -597,7 +597,7 @@ body#fullScreen #mainHeader{display:none;}
 	text-align:center;
 	margin:auto;
 }
-.btn.homeBtn {position:relative; background:rgba(255,255,255,0.25);}
+.homeBtn {position:relative;color:rgba(0,0,0,0.5);}
 
 #logoBig img{width:500px; margin:auto; position: relative}
 #homeFullScreen #flexHome {margin: 0;}
@@ -993,6 +993,10 @@ width: 60px;
     color : rgba(0,0,0,0.25);
 }
 
-.iconLinks a .icon-inner{
+.icon-inner{
     color:white;
+}
+
+#preloader #status img{
+    width:50px;
 }
