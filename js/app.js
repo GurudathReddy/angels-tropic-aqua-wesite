@@ -209,7 +209,7 @@ $(window).load(function () {
             $('.localscroll').localScroll({
                 lazy: true,
                 offset: {
-                    top: -80
+                    top: -67
                 }
             });
         }

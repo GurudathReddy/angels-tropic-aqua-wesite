@@ -2,11 +2,21 @@
 ================================================== */
 
 /** tabs **/
-.panel-default>.panel-heading {background:#4FAFC2; }
-.panel-default>.panel-heading:hover {background:#fff; }
-.panel-default>.panel-heading:hover a {color:#4FAFC2; }
+.panel-default>.panel-heading {background:#7D1935; }
+
+.panel-default>.panel-heading:hover a {color:#7D1935; }
 .panel-title>a {color:#fff;}
 .panel-title>a:hover {text-decoration: none;}
+
+.panel-default>.panel-heading:hover{
+	background : rgba(0,0,0,0.85);
+}
+.panel-default>.panel-heading{
+	background : rgba(0,0,0,0.55);
+}
+.panel-default {
+	background : rgba(0,0,0,0.25);
+}
 
 /* END BOOSTRAP CUSTOMIZATION
 ================================================== */
@@ -30,7 +40,7 @@ h2 {
 }
 h2 i {color:#999}
 h2.subTitle:after, h1.noSubtitle:after{
-	background-color:#4FAFC2;
+	background-color:#7D1935;
 }
 
 /*** parallax sections ***/
@@ -39,7 +49,7 @@ h2.subTitle:after, h1.noSubtitle:after{
 	color:#fff;
 }
 #home, #paralaxSlice1, #paralaxSlice2, #paralaxSlice3, #paralaxSlice4 {
-	background-color:#4FAFC2;
+	background-color:#7D1935;
 }
 #home {
 	background-image:url('../images/theme-pics/paralax-blue-3.jpg');
@@ -70,26 +80,31 @@ h2.subTitle:after, h1.noSubtitle:after{
 ================================================== */
 
 a {
-	color:#4FAFC2;
+	color:#7D1935;
 }
+
+a:hover, a:focus{
+	color:#7D1935;
+}
+
 a:hover, .scrollspyNav .active a {
-	color:#4FAFC2;
+	color:#7D1935;
 }
 ul.iconsList li a {
 	color:#555
 }
 ul.iconsList li a:hover, ul.iconsList i {
-	color:#4FAFC2
+	color:#7D1935
 }
 
 /*** buttons ***/
 .btn {
-	background:#4FAFC2;
+	background:#7D1935;
 	color:#fff;
 	border:2px solid #fff;
 }
 .btn:hover {
-	color:#4FAFC2;
+	color:#7D1935;
 	border-color:#eee;
 	text-shadow:none;
 	background:#fff
@@ -118,7 +133,7 @@ ul.iconsList li a:hover, ul.iconsList i {
 	-moz-box-shadow: none;
 	-webkit-box-shadow:none;
 	box-shadow: none;
-	color:#49AFCD;
+	color:#7D1935;
 }
 .btnWrapper {
 	border:1px solid #ccc;
@@ -131,7 +146,7 @@ ul.iconsList li a:hover, ul.iconsList i {
 ================================================== */
 
 #mainHeader{
-    background-color: white;
+    background-color: black;
 	-webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: 0 1px 10px rgba(0,0,0,.1);
 	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
@@ -145,7 +160,11 @@ ul.iconsList li a:hover, ul.iconsList i {
 	color:#444;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background: #4FAFC2;
+	background: #7D1935;
+	color:#fff;
+}
+
+.navbar-default .navbar-nav>li>a{
 	color:#fff;
 }
 
@@ -169,7 +188,7 @@ p.credits {
 	color:#555;
 }
 p.credits a {
-	color:#4FAFC2;
+	color:#7D1935;
 }
 
 /* END FOOTER 
@@ -196,7 +215,7 @@ p.credits a {
 	color:#FFFFFF;
 }
 .flexslider .flex-direction-nav a {
-	background-color:#4FAFC2;
+	background-color:#7D1935;
 }
 
 .flexslider .flex-control-paging li a:hover, #sliderWrapper .flex-control-paging li a.flex-active{
@@ -212,7 +231,7 @@ p.credits a {
 }
 .flexslider h1 {
 	color:#fff;
-	background-color:#4FAFC2;
+	background-color:#7D1935;
 }
 .flexslider h2 {
 	color:#fff;
@@ -244,7 +263,7 @@ nav#filter a {
 	color:#555;
 }
 nav#filter a:hover, nav#filter a.current {
-	background-color: #4FAFC2;
+	background-color: #7D1935;
 	color:#fff;
 }
 li.filterTitle {
@@ -253,7 +272,7 @@ li.filterTitle {
 section#projectDescription {
 	background-color:#F8F8F8
 }
-.mask{background-color: #4FAFC2;}
+.mask{background-color: #7D1935;}
 /* END PORTFOLIO
 ================================================== */
 
@@ -298,7 +317,7 @@ section#projectDescription {
 	color:#fff!important;
 }
 .pricingBloc.focusPlan h3 {
-	background-color:#4FAFC2;
+	background-color:#7D1935;
 	padding:1.25em;
 	color:#fff!important;
 }
@@ -331,7 +350,7 @@ border:none}
 
 /*** Feature box **/
 
-.boxFeature i{color:#4FAFC2;} 
+.boxFeature i{color:#7D1935;} 
 
 /*** slices ***/
 .slice{
@@ -356,11 +375,11 @@ border:none}
 	color:#444;
 }
 .color1 a.btn{color:#fff;}
-.color1 a.btn:hover{color:#4FAFC2;}
+.color1 a.btn:hover{color:#7D1935;}
 
 /*color4*/
 .color4, .slice.color4, .bulle.color4, .ctaBox.color4{
-	background-color:#4FAFC2;
+	background-color:#7D1935;
 	color:#fff;
 }
 
@@ -373,9 +392,12 @@ border:none}
 }
 
 /*** icons ***/
-.iconRounded {border:2px solid #4FAFC2;color:#4FAFC2;background-color:#fff;}
-.iconRounded:hover, .color1 .iconRounded:hover{background-color:#4FAFC2;color:#fff;}
-.color1 .iconRounded {color:#4FAFC2;}
-.color4 .iconRounded {background-color:#FFF;color:#4FAFC2;}
+.iconRounded {border:2px solid #7D1935;color:#7D1935;background-color:#fff;}
+.iconRounded:hover, .color1 .iconRounded:hover{background-color:#7D1935;color:#fff;}
+.color1 .iconRounded {color:#7D1935;}
+.color4 .iconRounded {background-color:#FFF;color:#7D1935;}
 
-
+.designer{
+	color:black;
+	background-color:#7D1935;
+}
